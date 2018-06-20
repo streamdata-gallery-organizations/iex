@@ -26,14 +26,14 @@ paths:
       - ~
       - in: query
         name: range
-        description: ' Optional  Used to specify a chart range if chart is used in
-          types parameter'
+        description: Optional  Used to specify a chart range if chart is used in types
+          parameter
       - in: query
         name: symbols
-        description: ' Optional  Comma delimited list of symbols limited to 100'
+        description: Optional  Comma delimited list of symbols limited to 100
       - in: query
         name: types
-        description: ' Required  Comma delimited list of endpoints to call'
+        description: Required  Comma delimited list of endpoints to call
       responses:
         200:
           description: OK
@@ -105,8 +105,8 @@ paths:
       parameters:
       - in: query
         name: format
-        description: ' Parameter is optional Value can be csv or psv When parameter
-          is not present, format defaults to JSON'
+        description: Parameter is optional Value can be csv or psv When parameter
+          is not present, format defaults to JSON
       - in: path
         name: symbol
         description: Stock ticker symbol
@@ -114,9 +114,9 @@ paths:
         format: string
       - in: query
         name: token
-        description: ' Parameter is optional Value is the API token from your IEX
-          user account If you have been permissioned for CUSIP information you&rsquo;ll
-          receive a CUSIP field, othewise data defaults to exclude CUSIP'
+        description: Parameter is optional Value is the API token from your IEX user
+          account If you have been permissioned for CUSIP information you&rsquo;ll
+          receive a CUSIP field, othewise data defaults to exclude CUSIP
       responses:
         200:
           description: OK
@@ -132,7 +132,7 @@ paths:
       parameters:
       - in: query
         name: displayPercent
-        description: ' Optional  If set to true, all percentage values will be multiplied
+        description: 'Optional  If set to true, all percentage values will be multiplied
           by a factor of 100 (Ex: /stock/aapl/quote?displayPercent=true)'
       responses:
         200:
@@ -192,7 +192,7 @@ paths:
       parameters:
       - in: query
         name: displayPercent
-        description: ' Optional If set to true, all percentage values will be multiplied
+        description: 'Optional If set to true, all percentage values will be multiplied
           by a factor of 100 (Ex: /stock/aapl/quote?displayPercent=true)'
       - in: path
         name: symbol

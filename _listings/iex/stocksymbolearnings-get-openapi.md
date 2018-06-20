@@ -26,14 +26,14 @@ paths:
       - ~
       - in: query
         name: range
-        description: ' Optional  Used to specify a chart range if chart is used in
-          types parameter'
+        description: Optional  Used to specify a chart range if chart is used in types
+          parameter
       - in: query
         name: symbols
-        description: ' Optional  Comma delimited list of symbols limited to 100'
+        description: Optional  Comma delimited list of symbols limited to 100
       - in: query
         name: types
-        description: ' Required  Comma delimited list of endpoints to call'
+        description: Required  Comma delimited list of endpoints to call
       responses:
         200:
           description: OK
