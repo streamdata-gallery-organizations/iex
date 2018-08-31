@@ -7,14 +7,14 @@ info:
   description: This returns the 15 minute delayed market quote.
   termsOfService: https://iextrading.com/api-terms/
   version: 1.0.0
-host: api.iextrading.com
-basePath: /1.0
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.iextrading.com
+basePath: /1.0
 paths:
   /stock/market/batch:
     get:

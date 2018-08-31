@@ -7,14 +7,14 @@ info:
   description: Refer to the Daily list specification for futher details.
   termsOfService: https://iextrading.com/api-terms/
   version: 1.0.0
-host: api.iextrading.com
-basePath: /1.0
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.iextrading.com
+basePath: /1.0
 paths:
   /stock/market/batch:
     get:
